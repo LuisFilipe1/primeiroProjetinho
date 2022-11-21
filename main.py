@@ -63,9 +63,9 @@ def calculoDeNotas():
     print ("Poxa "+aluno1+" não foi desta vez.\nMas não desista a vida é cheia de altos e baixos")
     print ("esta foi a sua nota")
     print (total)
+  menu = int (input ("O que você deseja agora?\n 1 - Verificar a média de outro aluno\n 2 - Encerrar por hoje\n"))
+  if (int (menu == 1)):
+    calculoDeNotas()
+  else:
+    print ("Até a proxima!")
 calculoDeNotas ()
-menu = int (input ("O que você deseja agora?\n 1 - Verificar a média de outro aluno\n 2 - Encerrar por hoje\n"))
-if (int (menu == 1)):
-  calculoDeNotas()
-else:
-  print ("Até a proxima!")
